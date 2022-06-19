@@ -42,3 +42,11 @@ keymap("n", "<leader>ft", ":Telescope live_grep<CR>", opts)
 keymap("n", "<leader>pp", ":Telescope projects<CR>", opts)
 keymap("n", "<leader>xx", ":Telescope buffers<CR>", opts)
 
+-- packages info keys
+keymap({ "n" }, "<LEADER>ns", require("package-info").show, { silent = true, noremap = true })
+keymap({ "n" }, "<LEADER>nc", require("package-info").hide, { silent = true, noremap = true })
+keymap({ "n" }, "<LEADER>nu", require("package-info").update, { silent = true, noremap = true })
+keymap({ "n" }, "<LEADER>nd", require("package-info").delete, { silent = true, noremap = true })
+keymap({ "n" }, "<LEADER>ni", require("package-info").install, { silent = true, noremap = true })
+keymap({ "n" }, "<LEADER>np", require("package-info").change_version, { silent = true, noremap = true })
+

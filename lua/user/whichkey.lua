@@ -262,7 +262,14 @@ local mappings = {
     },
     t = { '<cmd>lua require("user.functions").toggle_diagnostics()<cr>', "Toggle Diagnostics" },
   },
-
+  n = {
+    name = "Packages Info",
+    c = { "<cmd> lua require('package-info').hide()<cr>", "Hide" },
+    d = { "<cmd> lua require('package-info').delete()<cr>", "Delete" },
+    i = { "<cmd> lua require('package-info').install()<cr>", "Install" },
+    s = { "<cmd> lua require('package-info').show()<cr>", "Show" },
+    u = { "<cmd> lua require('package-info').update()<cr>", "Update" },
+  },
   -- s = {
   --   name = "Surround",
   --   ["."] = { "<cmd>lua require('surround').repeat_last()<cr>", "Repeat" },

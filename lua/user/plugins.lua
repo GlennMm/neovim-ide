@@ -171,6 +171,19 @@ function(use)
   -- AUTOSAVE
   use "Pocco81/AutoSave.nvim"
 
+  -- editor config
+  use 'editorconfig/editorconfig-vim'
+  
+  -- fuzzy finder
+  use 'junegunn/fzf'
+
+  use "MunifTanjim/nui.nvim"
+
+  use {
+    "vuki656/package-info.nvim",
+    requires = { "MunifTanjim/nui.nvim"},
+  }
+
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then
