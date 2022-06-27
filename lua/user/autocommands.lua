@@ -85,7 +85,7 @@ vim.api.nvim_create_autocmd({ "BufWritePost" }, {
   pattern = { "*.js", "*.ts", "*.jsx", "*.tsx", "*.dart", "*.html", "*.css", "*.scss", "*.sass", "*.vue", "*.json", "*.yaml", "*.yml" },
   callback = function()
     vim.lsp.codelens.refresh()
-    vim.lsp.buf.format()
+    -- vim.lsp.buf.format()
   end,
 })
 

@@ -38,5 +38,5 @@ require "user.zen-mode"
 require "user.neoscroll"
 require "user.autosave"
 require "user.null-ls"
-
+require "user.packages"
 

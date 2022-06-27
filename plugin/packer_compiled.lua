@@ -134,6 +134,11 @@ _G.packer_plugins = {
     path = "/home/glenn/.local/share/nvim/site/pack/packer/start/cmp-emoji",
     url = "https://github.com/hrsh7th/cmp-emoji"
   },
+  ["cmp-npm"] = {
+    loaded = true,
+    path = "/home/glenn/.local/share/nvim/site/pack/packer/start/cmp-npm",
+    url = "https://github.com/David-Kunz/cmp-npm"
+  },
   ["cmp-nvim-lsp"] = {
     loaded = true,
     path = "/home/glenn/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
@@ -184,10 +189,20 @@ _G.packer_plugins = {
     path = "/home/glenn/.local/share/nvim/site/pack/packer/start/dial.nvim",
     url = "https://github.com/monaqa/dial.nvim"
   },
+  ["editorconfig-vim"] = {
+    loaded = true,
+    path = "/home/glenn/.local/share/nvim/site/pack/packer/start/editorconfig-vim",
+    url = "https://github.com/editorconfig/editorconfig-vim"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/home/glenn/.local/share/nvim/site/pack/packer/start/friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
+  },
+  fzf = {
+    loaded = true,
+    path = "/home/glenn/.local/share/nvim/site/pack/packer/start/fzf",
+    url = "https://github.com/junegunn/fzf"
   },
   ["git-blame.nvim"] = {
     loaded = true,
@@ -270,6 +285,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/glenn/.local/share/nvim/site/pack/packer/start/nlsp-settings.nvim",
     url = "https://github.com/tamago324/nlsp-settings.nvim"
+  },
+  ["nui.nvim"] = {
+    loaded = true,
+    path = "/home/glenn/.local/share/nvim/site/pack/packer/start/nui.nvim",
+    url = "https://github.com/MunifTanjim/nui.nvim"
   },
   ["null-ls.nvim"] = {
     loaded = true,
@@ -370,6 +390,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/glenn/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/kyazdani42/nvim-web-devicons"
+  },
+  ["package-info.nvim"] = {
+    loaded = true,
+    path = "/home/glenn/.local/share/nvim/site/pack/packer/start/package-info.nvim",
+    url = "https://github.com/vuki656/package-info.nvim"
   },
   ["packer.nvim"] = {
     loaded = true,
@@ -504,6 +529,11 @@ _G.packer_plugins = {
     path = "/home/glenn/.local/share/nvim/site/pack/packer/start/vim-repeat",
     url = "https://github.com/tpope/vim-repeat"
   },
+  ["wal.vim"] = {
+    loaded = true,
+    path = "/home/glenn/.local/share/nvim/site/pack/packer/start/wal.vim",
+    url = "https://github.com/dylanaraps/wal.vim"
+  },
   ["webapi-vim"] = {
     loaded = true,
     path = "/home/glenn/.local/share/nvim/site/pack/packer/start/webapi-vim",
@@ -513,6 +543,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/glenn/.local/share/nvim/site/pack/packer/start/which-key.nvim",
     url = "https://github.com/folke/which-key.nvim"
+  },
+  ["yarn.vim"] = {
+    loaded = true,
+    path = "/home/glenn/.local/share/nvim/site/pack/packer/start/yarn.vim",
+    url = "https://github.com/trkw/yarn.vim"
   },
   ["zen-mode.nvim"] = {
     loaded = true,

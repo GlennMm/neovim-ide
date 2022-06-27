@@ -176,7 +176,6 @@ lualine.setup {
   sections = {
     lualine_a = { mode, branch },
     lualine_b = { diagnostics },
-    lualine_c = { vim.fn.mode() },
     lualine_d = { { current_signature, cond = hide_in_width } },
     -- lualine_x = { diff, spaces, "encoding", filetype },
     lualine_x = { diff, spaces, filetype },

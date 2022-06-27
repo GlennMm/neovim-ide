@@ -16,7 +16,7 @@ local options = {
 	splitbelow = true,
 	splitright = true,
 	swapfile = false,
-	termguicolors = true,
+	termguicolors = false,
 	timeoutlen = 100,
 	undofile = true,
 	updatetime = 300,
@@ -35,7 +35,7 @@ local options = {
 	wrap = true,
 	scrolloff = 8,
 	sidescrolloff = 8,
-	guifont = "FiraCode Nerd Font:h17"
+	guifont = "SFMono Nerd Font:h17"
 }
 
 vim.g.loaded_netrw = 1

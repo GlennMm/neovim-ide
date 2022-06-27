@@ -37,6 +37,13 @@ keymap("x", "<K>", ":move '<-2<CR>gv-gv", opts)
 keymap("x", "<A-j>", ":move '>+1<CR>gv-gv", opts)
 keymap("x", "<A-k>", ":move <-2<CR>gv-gv", opts)
 
+--dap keybindings
+keymap('n', "<F5>", "require('dap').continue()<CR>", opts)
+keymap('n', "<F10>", "require('dap').step_over()<CR>", opts)
+keymap('n', "<F11>", "require('dap').step_into()<CR>", opts)
+keymap('n', "<F12>", "require('dap').step_out()<CR>", opts)
+
+-- Telescope keybindings
 keymap("n", "<leader>ff", ":Telescope find_files<CR>", opts)
 keymap("n", "<leader>ft", ":Telescope live_grep<CR>", opts)
 keymap("n", "<leader>pp", ":Telescope projects<CR>", opts)

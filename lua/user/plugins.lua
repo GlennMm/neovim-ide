@@ -102,6 +102,7 @@ function(use)
   use "lunarvim/darkplus.nvim"
   use "rose-pine/neovim"
   use "rebelot/kanagawa.nvim"
+  use "dylanaraps/wal.vim"
 
   -- cmp plugins
   use "hrsh7th/nvim-cmp"
@@ -114,8 +115,8 @@ function(use)
   use "hrsh7th/cmp-nvim-lua"
   use "rcarriga/cmp-dap"
 
-  -- use 'David-Kunz/cmp-npm' -- doesn't seem to work
-
+  use 'David-Kunz/cmp-npm' -- doesn't seem to work
+  
   -- snippets
   use "L3MON4D3/LuaSnip" --snippet engine
   use "rafamadriz/friendly-snippets" -- a bunch of snippets to use
@@ -178,11 +179,13 @@ function(use)
   use 'junegunn/fzf'
 
   use "MunifTanjim/nui.nvim"
-
+  
+  -- yarn and npm related
   use {
     "vuki656/package-info.nvim",
     requires = { "MunifTanjim/nui.nvim"},
   }
+  use 'trkw/yarn.vim'
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
