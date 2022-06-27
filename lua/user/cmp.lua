@@ -99,7 +99,6 @@ cmp.setup {
         -- buffer = "[Buffer]",
         -- path = "[Path]",
         -- emoji = "[Emoji]",
-
         nvim_lsp = " ",
         nvim_lua = " ",
         luasnip = " ",
@@ -138,7 +137,7 @@ cmp.setup {
     },
   },
   experimental = {
-    ghost_text = true,
+    ghost_text = false,
     -- native_menu = false,
   },
 }

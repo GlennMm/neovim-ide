@@ -169,6 +169,11 @@ _G.packer_plugins = {
     path = "/home/glenn/.local/share/nvim/site/pack/packer/start/conflict-marker.vim",
     url = "https://github.com/rhysd/conflict-marker.vim"
   },
+  ["copilot.vim"] = {
+    loaded = true,
+    path = "/home/glenn/.local/share/nvim/site/pack/packer/start/copilot.vim",
+    url = "https://github.com/github/copilot.vim"
+  },
   ["cybu.nvim"] = {
     loaded = true,
     path = "/home/glenn/.local/share/nvim/site/pack/packer/start/cybu.nvim",

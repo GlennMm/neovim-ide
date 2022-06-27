@@ -180,6 +180,8 @@ function(use)
 
   use "MunifTanjim/nui.nvim"
   
+  use "github/copilot.vim"
+  
   -- yarn and npm related
   use {
     "vuki656/package-info.nvim",

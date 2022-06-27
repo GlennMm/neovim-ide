@@ -57,3 +57,7 @@ keymap({ "n" }, "<LEADER>nd", require("package-info").delete, { silent = true, n
 keymap({ "n" }, "<LEADER>ni", require("package-info").install, { silent = true, noremap = true })
 keymap({ "n" }, "<LEADER>np", require("package-info").change_version, { silent = true, noremap = true })
 
+
+
+
+
